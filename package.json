@@ -1,0 +1,21 @@
+{
+  "name": "to-do-it",
+  "version": "0.0.1",
+  "description": "A prototype of a simple notes and to-do app using a client/server request-response HTTP architecture.",
+  "main": "npmscripts/start.mjs",
+  "scripts": {
+    "start": "nodemon npmscripts/start.mjs",
+    "test": "node npmscripts/test.mjs"
+  },
+  "author": "ethan",
+  "license": "ISC",
+  "devDependencies": {
+    "csslint": "^1.0.5",
+    "eslint": "^8.55.0",
+    "htmlhint": "^1.1.4",
+    "nodemon": "^3.0.2"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
